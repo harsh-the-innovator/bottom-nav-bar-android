@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidApps/BottomNavapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.234" />
+        <entry key="..\:/AndroidApps/BottomNavapp/app/src/main/res/drawable/bg_bordered.xml" value="0.234" />
         <entry key="..\:/AndroidApps/BottomNavapp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.234" />
         <entry key="..\:/AndroidApps/BottomNavapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.234" />
         <entry key="..\:/AndroidApps/BottomNavapp/app/src/main/res/layout/activity_main.xml" value="0.2" />

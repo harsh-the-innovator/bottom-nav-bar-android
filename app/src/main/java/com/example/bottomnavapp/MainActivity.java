@@ -17,17 +17,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportFragmentManager()
-                .beginTransaction()
-                .add(R.id.fragmentContainerView,new HomeFragment())
-                .commit();
+        replaceFragment(new HomeFragment());
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setOnItemSelectedListener(navItemSelectedListener);
     }
 
     // NAVBAR ITEM SELECTED LISTENER
-    private NavigationBarView.OnItemSelectedListener navItemSelectedListener = new NavigationBarView.OnItemSelectedListener() {
+    private final NavigationBarView.OnItemSelectedListener navItemSelectedListener = new NavigationBarView.OnItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()){

@@ -17,6 +17,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/white"
+        android:background="@drawable/bg_bordered"
         />
 
 
